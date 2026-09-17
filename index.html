@@ -1,873 +1,316 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* =========================================================
+   THESIS PAGE
+========================================================= */
 
-    <title>MUHAMMAD FATHI DURAINI BIN SAHAIMI | Academic Portfolio</title>
+.thesis-hero {
+    padding: 150px 0 110px;
+    border-bottom: 1px solid var(--line);
+}
 
-    <meta
-        name="description"
-        content="Academic portfolio and curriculum vitae of Muhammad Fathi Duraini bin Sahaimi, Bachelor of International Relations (Hons.) student at Universiti Sultan Zainal Abidin."
-    >
+.thesis-title {
+    margin: 18px 0 60px;
 
-    <meta
-        name="author"
-        content="Muhammad Fathi Duraini bin Sahaimi"
-    >
+    font-family: var(--font-display);
+    font-size: clamp(4.5rem, 9vw, 9rem);
+    font-weight: 500;
+    line-height: 0.9;
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    letter-spacing: -0.055em;
+}
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-        rel="stylesheet"
-    >
+.thesis-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
+    gap: 100px;
+    max-width: 1100px;
+}
 
-<body>
+.thesis-lead {
+    font-family: var(--font-display);
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+    font-size: clamp(1.6rem, 2.7vw, 2.45rem);
+    line-height: 1.2;
 
-    <header class="site-header">
+    letter-spacing: -0.025em;
+}
 
-        <div class="header-container">
+.thesis-description {
+    max-width: 540px;
 
-            <a href="index.html" class="site-logo">
-                MFDS
-            </a>
+    color: var(--text-secondary);
 
-            <nav class="desktop-navigation" aria-label="Main navigation">
+    font-size: 1rem;
+    line-height: 1.8;
+}
 
-                <a href="index.html" class="nav-link active">
-                    CV
-                </a>
+.thesis-description p + p {
+    margin-top: 24px;
+}
 
-                <a href="research/index.html" class="nav-link">
-                    Research
-                </a>
 
-                <a href="briefs/index.html" class="nav-link">
-                    Briefs
-                </a>
+/* Current Status */
 
-                <a href="thesis/index.html" class="nav-link">
-                    Thesis
-                </a>
+.thesis-status-card {
+    display: grid;
 
-                <a href="knowledge/index.html" class="nav-link">
-                    Knowledge
-                </a>
+    grid-template-columns: 0.7fr 1.7fr 0.6fr;
 
-                <a href="about/index.html" class="nav-link">
-                    About
-                </a>
+    gap: 40px;
 
-            </nav>
+    padding: 45px;
 
-            <div class="header-actions">
+    border: 1px solid var(--line);
 
-                <button
-                    class="language-button"
-                    type="button"
-                    aria-label="Language"
-                >
-                    EN
-                </button>
+    background: var(--surface);
+}
 
-                <button
-                    class="menu-button"
-                    id="menuButton"
-                    type="button"
-                    aria-label="Open navigation"
-                    aria-expanded="false"
-                >
-                    <span></span>
-                    <span></span>
-                </button>
+.status-label,
+.stage-status {
+    color: var(--accent);
 
-            </div>
+    font-size: 0.68rem;
+    font-weight: 700;
 
-        </div>
+    letter-spacing: 0.13em;
+}
 
-    </header>
+.status-main h3 {
+    margin-bottom: 15px;
 
+    font-family: var(--font-display);
 
-    <!-- =========================
-         MOBILE NAVIGATION
-    ========================== -->
+    font-size: 2.3rem;
+    font-weight: 500;
+}
 
-    <div class="mobile-navigation" id="mobileNavigation">
+.status-main p {
+    max-width: 600px;
 
-        <div class="mobile-navigation-inner">
+    color: var(--text-secondary);
 
-            <a href="index.html">
-                CV
-            </a>
+    line-height: 1.75;
+}
 
-            <a href="research/index.html">
-                Research
-            </a>
+.status-year {
+    display: flex;
+    flex-direction: column;
 
-            <a href="briefs/index.html">
-                Briefs
-            </a>
+    justify-content: space-between;
 
-            <a href="thesis/index.html">
-                Thesis
-            </a>
+    text-align: right;
+}
 
-            <a href="knowledge/index.html">
-                Knowledge
-            </a>
+.status-year span {
+    font-family: var(--font-display);
 
-            <a href="about/index.html">
-                About
-            </a>
+    font-size: 2.5rem;
+}
 
-        </div>
+.status-year small {
+    color: var(--text-muted);
 
-    </div>
+    font-size: 0.65rem;
+    font-weight: 700;
 
+    letter-spacing: 0.1em;
+}
 
-    <main>
 
-        <!-- =========================
-             HERO / IDENTITY
-        ========================== -->
+/* Thesis Timeline */
 
-        <section class="hero">
+.thesis-timeline {
+    position: relative;
 
-            <div class="container">
+    border-top: 1px solid var(--line);
+}
 
-                <div class="hero-layout">
+.thesis-stage {
+    display: grid;
 
-                    <div class="hero-introduction">
+    grid-template-columns: 110px 1fr;
 
-                        <p class="eyebrow">
-                            ACADEMIC PORTFOLIO · 2026
-                        </p>
+    gap: 50px;
 
-                        <h1 class="hero-name">
-                            MUHAMMAD FATHI<br>
-                            DURAINI BIN SAHAIMI
-                        </h1>
+    padding: 38px 0;
 
-                        <p class="hero-title">
-                            Bachelor of International Relations (Hons.)
-                        </p>
+    border-bottom: 1px solid var(--line);
 
-                        <p class="hero-university">
-                            Universiti Sultan Zainal Abidin
-                        </p>
+    transition:
+        padding-left 0.3s ease,
+        background-color 0.3s ease;
+}
 
-                    </div>
+.thesis-stage:hover {
+    padding-left: 15px;
+}
 
+.thesis-stage-number {
+    font-family: var(--font-display);
 
-                    <div class="hero-profile">
+    font-size: 1.7rem;
 
-                        <p>
-                            International Relations student developing
-                            an academic foundation in international law,
-                            human rights, humanitarian affairs and
-                            international security.
-                        </p>
+    color: var(--accent);
+}
 
-                        <div class="hero-status">
+.thesis-stage-content {
+    display: grid;
 
-                            <div class="status-item">
+    grid-template-columns: 150px 1fr;
 
-                                <span>
-                                    CURRENT STATUS
-                                </span>
+    gap: 25px;
+}
 
-                                <strong>
-                                    Year 2 · Semester 3
-                                </strong>
+.thesis-stage-content .stage-status {
+    align-self: start;
+}
 
-                            </div>
+.thesis-stage-content h3 {
+    margin-bottom: 10px;
 
-                            <div class="status-item">
+    font-family: var(--font-display);
 
-                                <span>
-                                    FIELD
-                                </span>
+    font-size: 2rem;
+    font-weight: 500;
+}
 
-                                <strong>
-                                    International Relations
-                                </strong>
+.thesis-stage-content p {
+    grid-column: 2;
 
-                            </div>
+    max-width: 650px;
 
-                        </div>
+    color: var(--text-secondary);
 
-                    </div>
+    line-height: 1.75;
+}
 
-                </div>
 
-            </div>
+/* Thesis Archive */
 
-        </section>
+.thesis-archive {
+    background: var(--surface-soft);
+}
 
+.thesis-archive-box {
+    display: grid;
 
-        <!-- =========================
-             QUICK PROFILE
-        ========================== -->
+    grid-template-columns: 1fr 1fr;
 
-        <section class="quick-profile">
+    gap: 100px;
 
-            <div class="container">
+    padding: 70px 0;
 
-                <div class="quick-profile-grid">
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
 
-                    <div>
-                        <span>01</span>
-                        <strong>Academic Focus</strong>
-                    </div>
+.thesis-archive-box h2 {
+    margin-top: 20px;
 
-                    <div>
-                        <span>02</span>
-                        <strong>Research & Analysis</strong>
-                    </div>
+    font-family: var(--font-display);
 
-                    <div>
-                        <span>03</span>
-                        <strong>Academic Development</strong>
-                    </div>
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
 
-                    <div>
-                        <span>04</span>
-                        <strong>International Affairs</strong>
-                    </div>
+    font-weight: 500;
+    line-height: 1;
 
-                </div>
+    letter-spacing: -0.04em;
+}
 
-            </div>
+.thesis-archive-box p {
+    max-width: 550px;
 
-        </section>
+    margin-bottom: 25px;
 
+    color: var(--text-secondary);
 
-        <!-- =========================
-             PROFILE
-        ========================== -->
+    line-height: 1.8;
+}
 
-        <section class="section">
 
-            <div class="container">
+/* Thesis Responsive */
 
-                <div class="section-header">
+@media (max-width: 900px) {
 
-                    <span class="section-number">
-                        01
-                    </span>
+    .thesis-hero {
+        padding: 120px 0 80px;
+    }
 
-                    <span class="section-label">
-                        PROFILE
-                    </span>
+    .thesis-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
 
-                </div>
+    .thesis-status-card {
+        grid-template-columns: 1fr;
 
+        gap: 30px;
 
-                <div class="two-column">
+        padding: 30px;
+    }
 
-                    <div>
+    .status-year {
+        text-align: left;
 
-                        <h2 class="section-title">
-                            An academic profile
-                            built around inquiry.
-                        </h2>
+        gap: 8px;
+    }
 
-                    </div>
+    .thesis-stage {
+        grid-template-columns: 55px 1fr;
 
+        gap: 25px;
+    }
 
-                    <div class="section-content">
+    .thesis-stage-content {
+        display: block;
+    }
 
-                        <p class="large-text">
-                            I am a Bachelor of International Relations
-                            (Hons.) student at Universiti Sultan Zainal
-                            Abidin, with developing interests in the
-                            legal, humanitarian and security dimensions
-                            of international affairs.
-                        </p>
+    .thesis-stage-content .stage-status {
+        display: block;
+        margin-bottom: 12px;
+    }
 
-                        <p>
-                            My academic interests include international
-                            law, international human rights law,
-                            international humanitarian law,
-                            humanitarian affairs and international
-                            security.
-                        </p>
+    .thesis-stage-content h3 {
+        margin-bottom: 12px;
+    }
 
-                        <p>
-                            This website documents my academic
-                            development through research projects,
-                            analytical briefs, knowledge notes,
-                            academic work and selected experiences.
-                        </p>
+    .thesis-stage-content p {
+        margin-top: 0;
+    }
 
-                        <a
-                            href="about/index.html"
-                            class="text-button"
-                        >
-                            Read more about me
-                            <span>→</span>
-                        </a>
+    .thesis-archive-box {
+        grid-template-columns: 1fr;
 
-                    </div>
+        gap: 40px;
+    }
 
-                </div>
+}
 
-            </div>
 
-        </section>
+@media (max-width: 650px) {
 
+    .thesis-title {
+        font-size: clamp(3.8rem, 18vw, 6rem);
+    }
 
-        <!-- =========================
-             EDUCATION
-        ========================== -->
+    .thesis-stage {
+        grid-template-columns: 40px 1fr;
 
-        <section class="section section-border">
+        gap: 18px;
 
-            <div class="container">
+        padding: 28px 0;
+    }
 
-                <div class="section-header">
+    .thesis-stage-number {
+        font-size: 1.3rem;
+    }
 
-                    <span class="section-number">
-                        02
-                    </span>
+    .thesis-stage-content h3 {
+        font-size: 1.7rem;
+    }
 
-                    <span class="section-label">
-                        EDUCATION
-                    </span>
+    .thesis-archive-box {
+        padding: 50px 0;
+    }
 
-                </div>
-
-
-                <article class="education-entry">
-
-                    <div class="education-date">
-                        2025 — Present
-                    </div>
-
-                    <div class="education-main">
-
-                        <h2>
-                            Bachelor of International
-                            Relations (Hons.)
-                        </h2>
-
-                        <p class="education-institution">
-                            Universiti Sultan Zainal Abidin
-                        </p>
-
-                        <p>
-                            Current standing:
-                            Year 2 · Semester 3
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             RESEARCH INTERESTS
-        ========================== -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <span class="section-number">
-                        03
-                    </span>
-
-                    <span class="section-label">
-                        RESEARCH INTERESTS
-                    </span>
-
-                </div>
-
-
-                <div class="interest-list">
-
-                    <a
-                        href="knowledge/international-law/"
-                        class="interest-item"
-                    >
-
-                        <span>01</span>
-
-                        <h2>
-                            International Law
-                        </h2>
-
-                        <span class="interest-arrow">
-                            →
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="knowledge/human-rights/"
-                        class="interest-item"
-                    >
-
-                        <span>02</span>
-
-                        <h2>
-                            Human Rights
-                        </h2>
-
-                        <span class="interest-arrow">
-                            →
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="knowledge/international-security/"
-                        class="interest-item"
-                    >
-
-                        <span>03</span>
-
-                        <h2>
-                            International Security
-                        </h2>
-
-                        <span class="interest-arrow">
-                            →
-                        </span>
-
-                    </a>
-
-
-                    <div class="interest-item">
-
-                        <span>04</span>
-
-                        <h2>
-                            Humanitarian Affairs
-                        </h2>
-
-                        <span class="interest-arrow">
-                            →
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             EXPERIENCE
-        ========================== -->
-
-        <section class="section section-border">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <span class="section-number">
-                        04
-                    </span>
-
-                    <span class="section-label">
-                        EXPERIENCE
-                    </span>
-
-                </div>
-
-
-                <div class="experience-list">
-
-                    <article class="experience-entry">
-
-                        <div class="experience-date">
-                            2025 — Present
-                        </div>
-
-                        <div>
-
-                            <h2>
-                                Executive Committee Member
-                            </h2>
-
-                            <p>
-                                IRiSS · Entrepreneurship &
-                                External Relations
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="experience-entry">
-
-                        <div class="experience-date">
-                            Previous
-                        </div>
-
-                        <div>
-
-                            <h2>
-                                Legal Clerk
-                            </h2>
-
-                            <p>
-                                AriffinMarzuki & Amco
-                            </p>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SELECTED WORK
-        ========================== -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <span class="section-number">
-                        05
-                    </span>
-
-                    <span class="section-label">
-                        SELECTED WORK
-                    </span>
-
-                </div>
-
-
-                <div class="work-introduction">
-
-                    <h2 class="section-title">
-                        Academic work,
-                        organised as an archive.
-                    </h2>
-
-                    <p>
-                        Explore the different forms of work
-                        documented in this portfolio.
-                    </p>
-
-                </div>
-
-
-                <div class="work-grid">
-
-                    <a
-                        href="research/index.html"
-                        class="work-card"
-                    >
-
-                        <span class="work-number">
-                            01
-                        </span>
-
-                        <h3>
-                            Research
-                        </h3>
-
-                        <p>
-                            Research questions, evidence,
-                            analysis and findings.
-                        </p>
-
-                        <span class="work-link">
-                            Explore →
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="briefs/index.html"
-                        class="work-card"
-                    >
-
-                        <span class="work-number">
-                            02
-                        </span>
-
-                        <h3>
-                            Briefs
-                        </h3>
-
-                        <p>
-                            Concise analysis of international
-                            and policy questions.
-                        </p>
-
-                        <span class="work-link">
-                            Explore →
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="thesis/index.html"
-                        class="work-card"
-                    >
-
-                        <span class="work-number">
-                            03
-                        </span>
-
-                        <h3>
-                            Thesis
-                        </h3>
-
-                        <p>
-                            Long-form academic research
-                            and developing scholarship.
-                        </p>
-
-                        <span class="work-link">
-                            Explore →
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="knowledge/index.html"
-                        class="work-card"
-                    >
-
-                        <span class="work-number">
-                            04
-                        </span>
-
-                        <h3>
-                            Knowledge
-                        </h3>
-
-                        <p>
-                            Structured notes, concepts,
-                            cases and academic learning.
-                        </p>
-
-                        <span class="work-link">
-                            Explore →
-                        </span>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             LEADERSHIP
-        ========================== -->
-
-        <section class="section section-border">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <span class="section-number">
-                        06
-                    </span>
-
-                    <span class="section-label">
-                        LEADERSHIP & DEVELOPMENT
-                    </span>
-
-                </div>
-
-
-                <div class="development-list">
-
-                    <div class="development-row">
-
-                        <span>
-                            Leadership
-                        </span>
-
-                        <strong>
-                            Executive Committee Member,
-                            IRiSS
-                        </strong>
-
-                    </div>
-
-
-                    <div class="development-row">
-
-                        <span>
-                            Academic Development
-                        </span>
-
-                        <strong>
-                            International Relations,
-                            Law & Humanitarian Affairs
-                        </strong>
-
-                    </div>
-
-
-                    <div class="development-row">
-
-                        <span>
-                            Professional Development
-                        </span>
-
-                        <strong>
-                            Legal, Human Rights &
-                            Humanitarian Learning
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CURRENT DIRECTION
-        ========================== -->
-
-        <section class="direction">
-
-            <div class="container">
-
-                <p class="eyebrow">
-                    CURRENT ACADEMIC DIRECTION
-                </p>
-
-                <h2>
-                    Developing knowledge in
-                    international law,
-                    human rights and
-                    humanitarian affairs.
-                </h2>
-
-                <p>
-                    This portfolio will continue to grow alongside
-                    my academic development.
-                </p>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer class="site-footer">
-
-        <div class="container">
-
-            <div class="footer-main">
-
-                <div>
-
-                    <p class="footer-label">
-                        ACADEMIC PORTFOLIO
-                    </p>
-
-                    <h2>
-                        MUHAMMAD FATHI
-                        DURAINI BIN SAHAIMI
-                    </h2>
-
-                    <p>
-                        Bachelor of International Relations (Hons.)<br>
-                        Universiti Sultan Zainal Abidin
-                    </p>
-
-                </div>
-
-
-                <div class="footer-navigation">
-
-                    <a href="research/index.html">
-                        Research
-                    </a>
-
-                    <a href="briefs/index.html">
-                        Briefs
-                    </a>
-
-                    <a href="thesis/index.html">
-                        Thesis
-                    </a>
-
-                    <a href="knowledge/index.html">
-                        Knowledge
-                    </a>
-
-                    <a href="about/index.html">
-                        About
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="footer-bottom">
-
-                <span>
-                    © 2026 Muhammad Fathi Duraini bin Sahaimi
-                </span>
-
-                <span>
-                    Academic Portfolio
-                </span>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-
-    <script src="assets/js/main.js"></script>
-
-</body>
-</html>
+}
