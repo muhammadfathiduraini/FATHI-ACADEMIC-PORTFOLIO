@@ -1356,4 +1356,622 @@ button {
         transition-duration: .01ms !important;
     }
 
-}
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research | Muhammad Fathi Duraini bin Sahaimi</title>
+
+    <meta
+        name="description"
+        content="Research archive of Muhammad Fathi Duraini bin Sahaimi, Bachelor of International Relations student at Universiti Sultan Zainal Abidin."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+
+<!-- =========================================
+     HEADER
+========================================= -->
+
+<header class="site-header">
+    <div class="container header-inner">
+
+        <a href="../index.html" class="site-logo" aria-label="Muhammad Fathi Duraini home">
+            <span class="logo-mark">MFDS</span>
+            <span class="logo-text">Academic Portfolio</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+
+            <a href="../index.html">CV</a>
+
+            <a href="./index.html" class="active">Research</a>
+
+            <a href="../briefs/index.html">Briefs</a>
+
+            <a href="../thesis/index.html">Thesis</a>
+
+            <a href="../knowledge/index.html">Knowledge</a>
+
+            <a href="../about/index.html">About</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button
+                class="language-button"
+                type="button"
+                aria-label="Language"
+            >
+                EN
+            </button>
+
+            <button
+                class="mobile-menu-button"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="mobile-nav">
+
+        <a href="../index.html">CV</a>
+
+        <a href="./index.html">Research</a>
+
+        <a href="../briefs/index.html">Briefs</a>
+
+        <a href="../thesis/index.html">Thesis</a>
+
+        <a href="../knowledge/index.html">Knowledge</a>
+
+        <a href="../about/index.html">About</a>
+
+    </div>
+</header>
+
+
+<main>
+
+<!-- =========================================
+     PAGE INTRO
+========================================= -->
+
+<section class="research-hero">
+
+    <div class="container">
+
+        <div class="eyebrow reveal-element">
+            ACADEMIC PORTFOLIO · RESEARCH
+        </div>
+
+        <h1 class="research-title reveal-element">
+            Research
+        </h1>
+
+        <div class="research-intro-grid">
+
+            <p class="research-lead reveal-element">
+                An evolving archive of research, analytical work and
+                academic inquiry in International Relations.
+            </p>
+
+            <div class="research-description reveal-element">
+
+                <p>
+                    This section documents research projects and written
+                    work developed throughout my academic journey.
+                    The archive is intended to show not only what I study,
+                    but how I approach questions, evidence and analysis.
+                </p>
+
+                <p>
+                    My principal areas of interest include International Law,
+                    International Human Rights Law, International Humanitarian
+                    Law, International Security and Humanitarian Affairs.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     RESEARCH AREAS
+========================================= -->
+
+<section class="research-areas section">
+
+    <div class="container">
+
+        <div class="section-heading-row">
+
+            <div>
+                <span class="section-number">01</span>
+
+                <h2>
+                    Research Areas
+                </h2>
+            </div>
+
+            <p>
+                The fields currently shaping my academic direction.
+            </p>
+
+        </div>
+
+
+        <div class="research-area-grid">
+
+            <article class="research-area-card reveal-element">
+
+                <span class="research-area-number">01</span>
+
+                <h3>
+                    International Law
+                </h3>
+
+                <p>
+                    International legal frameworks, treaties,
+                    state responsibility, jurisdiction and the
+                    application of international law in contemporary affairs.
+                </p>
+
+                <span class="area-arrow">↗</span>
+
+            </article>
+
+
+            <article class="research-area-card reveal-element">
+
+                <span class="research-area-number">02</span>
+
+                <h3>
+                    Human Rights
+                </h3>
+
+                <p>
+                    International human rights standards, protection
+                    mechanisms, accountability and rights-based approaches
+                    to governance and development.
+                </p>
+
+                <span class="area-arrow">↗</span>
+
+            </article>
+
+
+            <article class="research-area-card reveal-element">
+
+                <span class="research-area-number">03</span>
+
+                <h3>
+                    Humanitarian Law
+                </h3>
+
+                <p>
+                    International humanitarian law, civilian protection,
+                    armed conflict, humanitarian principles and
+                    legal protection in conflict situations.
+                </p>
+
+                <span class="area-arrow">↗</span>
+
+            </article>
+
+
+            <article class="research-area-card reveal-element">
+
+                <span class="research-area-number">04</span>
+
+                <h3>
+                    International Security
+                </h3>
+
+                <p>
+                    International security, conflict dynamics,
+                    peace and security institutions and emerging
+                    challenges to the international order.
+                </p>
+
+                <span class="area-arrow">↗</span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     RESEARCH ARCHIVE
+========================================= -->
+
+<section class="research-archive section">
+
+    <div class="container">
+
+        <div class="section-heading-row">
+
+            <div>
+
+                <span class="section-number">02</span>
+
+                <h2>
+                    Research Archive
+                </h2>
+
+            </div>
+
+            <p>
+                Selected academic work and developing research projects.
+            </p>
+
+        </div>
+
+
+        <!--
+            IMPORTANT:
+            Do not invent research projects here.
+
+            Duplicate this article whenever a real
+            research project is ready to publish.
+        -->
+
+        <article class="research-entry reveal-element">
+
+            <div class="research-entry-meta">
+
+                <span>
+                    RESEARCH PROJECT
+                </span>
+
+                <span>
+                    DEVELOPING
+                </span>
+
+            </div>
+
+
+            <div class="research-entry-main">
+
+                <div>
+
+                    <h3>
+                        Research Project
+                    </h3>
+
+                    <p class="research-entry-topic">
+                        International Relations · International Law
+                    </p>
+
+                </div>
+
+
+                <div class="research-entry-description">
+
+                    <p>
+                        A developing research project. The full research
+                        question, methodology, evidence and findings will
+                        be published here once the work is ready.
+                    </p>
+
+                    <a
+                        href="./publications/template.html"
+                        class="text-button"
+                    >
+                        View research structure
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- SECOND ENTRY -->
+
+        <article class="research-entry reveal-element">
+
+            <div class="research-entry-meta">
+
+                <span>
+                    ACADEMIC PAPER
+                </span>
+
+                <span>
+                    COMING SOON
+                </span>
+
+            </div>
+
+
+            <div class="research-entry-main">
+
+                <div>
+
+                    <h3>
+                        Academic Paper
+                    </h3>
+
+                    <p class="research-entry-topic">
+                        Human Rights · Humanitarian Affairs
+                    </p>
+
+                </div>
+
+
+                <div class="research-entry-description">
+
+                    <p>
+                        This section will contain a published or completed
+                        academic paper, together with its abstract,
+                        analytical framework, sources and supporting material.
+                    </p>
+
+                    <span class="archive-status">
+                        Publication page pending
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- THIRD ENTRY -->
+
+        <article class="research-entry reveal-element">
+
+            <div class="research-entry-meta">
+
+                <span>
+                    RESEARCH NOTE
+                </span>
+
+                <span>
+                    COMING SOON
+                </span>
+
+            </div>
+
+
+            <div class="research-entry-main">
+
+                <div>
+
+                    <h3>
+                        Research Note
+                    </h3>
+
+                    <p class="research-entry-topic">
+                        International Security
+                    </p>
+
+                </div>
+
+
+                <div class="research-entry-description">
+
+                    <p>
+                        Short-form analytical work examining a focused
+                        issue in international affairs.
+                    </p>
+
+                    <span class="archive-status">
+                        Publication page pending
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     RESEARCH METHOD
+========================================= -->
+
+<section class="research-method section">
+
+    <div class="container">
+
+        <div class="method-layout">
+
+            <div>
+
+                <span class="section-number">03</span>
+
+                <h2>
+                    How I Approach Research
+                </h2>
+
+            </div>
+
+
+            <div class="method-content">
+
+                <div class="method-item reveal-element">
+
+                    <span>01</span>
+
+                    <div>
+
+                        <h3>
+                            Question
+                        </h3>
+
+                        <p>
+                            Define a clear research problem and establish
+                            what the research is actually trying to explain.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="method-item reveal-element">
+
+                    <span>02</span>
+
+                    <div>
+
+                        <h3>
+                            Evidence
+                        </h3>
+
+                        <p>
+                            Identify relevant primary and authoritative
+                            sources before developing conclusions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="method-item reveal-element">
+
+                    <span>03</span>
+
+                    <div>
+
+                        <h3>
+                            Analysis
+                        </h3>
+
+                        <p>
+                            Connect evidence to the research question
+                            through structured legal, political and
+                            theoretical analysis.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="method-item reveal-element">
+
+                    <span>04</span>
+
+                    <div>
+
+                        <h3>
+                            Reflection
+                        </h3>
+
+                        <p>
+                            Identify limitations, competing interpretations
+                            and areas requiring further research.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div>
+
+                <span class="footer-label">
+                    ACADEMIC PORTFOLIO
+                </span>
+
+                <h2>
+                    Muhammad Fathi Duraini<br>
+                    bin Sahaimi
+                </h2>
+
+            </div>
+
+            <div class="footer-note">
+
+                <p>
+                    International Relations · International Law ·
+                    Human Rights · Humanitarian Affairs
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © <span class="current-year">2026</span>
+                Muhammad Fathi Duraini bin Sahaimi
+            </span>
+
+            <span>
+                Universiti Sultan Zainal Abidin
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</main>
+
+
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
